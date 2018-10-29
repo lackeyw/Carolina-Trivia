@@ -1,0 +1,75 @@
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `clue`
+--
+
+CREATE TABLE `clue` (
+  `id` int(11) NOT NULL,
+  `src` char(20) NOT NULL,
+  `alt` char(20) NOT NULL,
+  `keyword` char(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `clue`
+--
+
+INSERT INTO `clue` (`id`, `src`, `alt`, `keyword`) VALUES
+(1, 'old_well.jpg', 'old_well', 'old-well'),
+(2, 'bell_tower.jpg', 'bell_tower', 'bell-tower'),
+(3, 'suttons.jpg', 'suttons', 'suttons'),
+(4, 'dean_dome.jpg', 'dean_dome', 'dean-dome'),
+(5, 'kenan.jpg', 'kenan', 'kenan-stadium'),
+(6, 'frat_court.jpg', 'frat_court', 'frat-court-fraternity'),
+(7, 'sitterson.jpg', 'sitterson', 'sitterson-brooks'),
+(8, 'silent_sam.jpg', 'silent_sam', 'silent-sam'),
+(9, 'lenoir.jpg', 'lenoir', 'lenoir'),
+(10, 'pit.jpeg', 'the_pit', 'pit'),
+(11, 'davis.jpg', 'davis', 'davis'),
+(12, 'ul.jpg', 'ul', 'ul-undergraduate-library'),
+(13, 'wilson.jpg', 'wilson', 'wilson'),
+(14, 'hojo.jpg', 'hojo', 'hojo-hinton-james'),
+(15, 'phillips.jpg', 'phillips', 'phillips'),
+(16, 'genome.jpg', 'genome', 'genome'),
+(17, 'carol_inn.jpg', 'carolina_inn', 'carolina-inn'),
+(18, 'fedex.jpg', 'fedex', 'fedex'),
+(19, 'granville.jpg', 'granville', 'granville'),
+(20, 'topo.png', 'topo', 'topo-top-hill'),
+(21, 'morehead.jpg', 'morehead', 'morehead-planetarium'),
+(22, 'hes_not.jpg', 'hes_not', 'hes-not-here-mural'),
+(23, 'fetzer.jpg', 'fetzer', 'fetzer'),
+(24, 'forest.jpg', 'forest_theatre', 'forest-theater-theatre'),
+(25, 'hospital.jpg', 'unc_hospital', 'hospital'),
+(26, 'b_school.jpg', 'b_school', 'b-school-buisness-kenan-flagler'),
+(27, 'four.jpg', 'four_corners', 'four-corners-4'),
+(28, 'choo_choo.jpg', 'choo_choo', 'choo-justice-charlie-statue'),
+(29, 'arboretum.png', 'arboretum', 'arboretum-coker'),
+(30, 'carmichael.jpg', 'carmichael', 'carmichael'),
+(31, 'union.jpg', 'union', 'union-student'),
+(32, 'bookstore.jpeg', 'bookstore', 'student-store-bookstore-book'),
+(33, 'carroll.jpg', 'carroll_hall', 'carroll-hall'),
+(34, 'ccs.jpg', 'carolina-coffee', 'carolina-coffee-shop'),
+(35, 'franklin.jpg', 'franklin_hotel', 'franklin-hotel'),
+(36, 'med_deli.jpg', 'med_deli', 'med-deli-mediterranean'),
+(37, 'crooks_corner.jpg', 'crooks_corner', 'crooks-corner-crook');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `clue`
+--
+ALTER TABLE `clue`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `clue`
+--
+ALTER TABLE `clue`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
